@@ -2,6 +2,8 @@
 
 Static site built from the Elite Living brochure. No build tools are needed to host it: upload this folder to any static host.
 
+- **Live site:** https://nabilsiddig.github.io/AlFrujan/
+- **Deploys:** pushes to `main` are published automatically with GitHub Actions. In the repository's Pages settings, set the source to **GitHub Actions**.
 - `index.html`: the page (generated, see below)
 - `src/index.src.html`: the source you edit. Images are written as `<img data-img="name">`
 - `tools/build.py`: turns the source into `index.html`, filling in sizes and srcsets (`python3 tools/build.py`, needs Pillow)
